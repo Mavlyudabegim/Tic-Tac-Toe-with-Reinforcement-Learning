@@ -7,7 +7,7 @@ An interactive web application that demonstrates **Q-Learning Reinforcement Lear
 ![React](https://img.shields.io/badge/React-18.2-blue)
 ![Vite](https://img.shields.io/badge/Vite-5.0-purple)
 
-[**Live Demo**](https://vercel.com/mavlyudabegims-projects/tic-tac-toe-with-reinforcement-learning) | [**Report Bug**](https://github.com/yourusername/tic-tac-toe-rl/issues) | [**Request Feature**](https://github.com/yourusername/tic-tac-toe-rl/issues)
+[**Live Demo**](https://tic-tac-toe-with-reinforcement-lear.vercel.app/) | [**Report Bug**](https://github.com/yourusername/tic-tac-toe-rl/issues) | [**Request Feature**](https://github.com/yourusername/tic-tac-toe-rl/issues)
 
 ## ✨ Features
 
