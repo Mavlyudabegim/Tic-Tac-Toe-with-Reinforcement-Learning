@@ -20,8 +20,8 @@ export class QLearningAgent extends Agent {
       ...config,
     });
     this.qTable = {};
-    this.alpha = config.alpha!;
-    this.gamma = config.gamma!;
+    this.alpha = this.config.alpha!;
+    this.gamma = this.config.gamma!;
   }
 
   chooseAction(
