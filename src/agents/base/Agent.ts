@@ -1,4 +1,5 @@
-import { AgentConfig, Board, Episode, Experience, Player } from "./types";
+import { Board, Player } from "../../utils/types";
+import { AgentConfig, Experience } from "./types";
 
 export abstract class Agent {
     protected config: AgentConfig;
@@ -15,10 +16,6 @@ export abstract class Agent {
         throw new Error("Method 'learn' not implemented.");
     }
 
-    learnFromEpisode(episode: Episode): void {
-        throw new Error("Method 'learnFromEpisode' not implemented.");
-    }
-
     abstract getKnowledgeSize(): number;
 
     abstract exportKnowledge(): string;
@@ -26,12 +23,4 @@ export abstract class Agent {
     abstract importKnowledge(data: string): void;
 
     abstract resetKnowledge(): void;
-
-    getMetadata() {
-        return {
-            name: this.name,
-            algorithm: this.constructor.name,
-            config: this.config,
-        };
-    }
 }
